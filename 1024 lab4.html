@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <script src="/lab 04.js"></script>
+
+</script>
+
+<style>
+    
+    .tab{
+        border-spacing: 1px;
+        border: 1px solid #333;
+    }
+
+    .th1 {
+        border: 1px solid #333;
+        color: black;
+        background-color: #C1D8C3;        
+    }
+
+    .td1 {
+        border: 1px solid #333;
+        color: black;
+        background-color: #F5E8B7;
+    }
+
+.button {
+  border: 1px solid #333;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color:aqua;} 
+.button2 {background-color:crimson;} 
+.button3 {background-color:darkblue;} 
+.button4 {background-color:lemonchiffon;} 
+   
+
+</style>
+
+
+<body>            
+        <table class="tab" id="tab1">
+            <tr>
+                <th class="th1">Math</th>
+                <th class="th1">English</th>
+                <th class="th1">Programming</th>
+            </tr>
+            <tr >
+                <td ALIGN=CENTER class="td1">90</td>
+                <td ALIGN=CENTER class="td1">60</td>
+                <td ALIGN=CENTER class="td1">80</td>
+            </tr>
+            <tr >
+                <td ALIGN=CENTER class="td1">80</td>
+                <td ALIGN=CENTER class="td1">86</td>
+                <td ALIGN=CENTER class="td1">98</td>
+            </tr>
+        </table>
+
+        <div>"Change The Table Width"
+            <br>
+        <button onclick="changewi200()">200px</button>
+        <button onclick="changewi500()">500px</button>
+            <br>
+        "Change The Border and the Spacing Width"
+            <br>
+            <button onclick="changebs1()">1px</button>
+            <button onclick="changebs10()">10px</button>
+            <button onclick="changebs20()">20px</button>
+        <br>
+        "Change The Table Color"
+            <br>
+            <button class="button button1" onclick="changeColor1()"></button>
+            <button class="button button2" onclick="changeColor2()"></button>
+            <button class="button button3" onclick="changeColor3()"></button>
+            <button class="button button4" onclick="changeColor4()"></button>
+        </div>
+            
+
+
+
+      </table>
+      
+</body>
+</html>
